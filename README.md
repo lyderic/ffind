@@ -7,10 +7,12 @@ This wont work on Windows!
 
 ## Building
 
-   $ git clone https://github.com/lyderic/ffind
-   $ cd ffind
-   $ go install
-   
+```
+$ git clone https://github.com/lyderic/ffind
+$ cd ffind
+$ go install
+```
+
 ## Usage
 
 - List all files, dirs, subdirs (including hidden files, dirs, subdir) in current directory:
