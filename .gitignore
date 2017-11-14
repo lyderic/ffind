@@ -15,3 +15,6 @@
 
 # For vim
 *.swp
+
+# dir create for testing, no need to version control it
+dir

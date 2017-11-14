@@ -78,8 +78,8 @@ func exists(path string) (found bool) {
 }
 
 func display(path string, info os.FileInfo) {
-  if info.IsDir() {
-    path = path + "/"
-  }
-  fmt.Println(path)
+	if info.IsDir() {
+		path = path + "/"
+	}
+	fmt.Println(path)
 }
