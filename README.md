@@ -21,7 +21,7 @@ $ go install
 $ ffind
 ```
 
-- List all in <dir>
+- List all in 'dir'
 
 ```
 $ ffind dir
@@ -35,7 +35,7 @@ $ ffind /absolute/path/to/dir
 $ ffind -H
 ```
 
-- List only hiddens in <dir>
+- List only hiddens in 'dir'
 
 ```
 $ ffind -H dir
