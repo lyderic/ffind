@@ -53,6 +53,7 @@ func listAll(basedir string) {
 
 func listHidden(basedir string) {
 	filepath.Walk(basedir, func(path string, info os.FileInfo, err error) error {
+    if info == nil { return nil }
 		if info.Name()[0] == '.' && len(info.Name()) > 1 {
 			display(path, info)
 		}
@@ -78,8 +79,12 @@ func exists(path string) (found bool) {
 }
 
 func display(path string, info os.FileInfo) {
+  if info == nil {
+    return
+  }
 	if info.IsDir() {
-		path = path + "/"
-	}
-	fmt.Println(path)
+		fmt.Println(path + "/")
+	} else {
+    fmt.Println(path)
+  }
 }
