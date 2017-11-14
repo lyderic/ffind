@@ -43,8 +43,8 @@ $ ffind -H ../relative/path/to/dir
 $ ffind -H /absolute/path/to/dir
 ```
 
-- To remove all hidden files and dirs (!), please use the '-Hr' switch. Example:
+- To remove all hidden files and dirs (!), please use the '-R' switch. Example:
 
 ```
-$ ffind -Hr dir
+$ ffind -R dir
 ```
