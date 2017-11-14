@@ -16,20 +16,35 @@ $ go install
 ## Usage
 
 - List all files, dirs, subdirs (including hidden files, dirs, subdir) in current directory:
-   $ ffind
+
+```
+$ ffind
+```
 
 - List all in <dir>
-   $ ffind dir
-   $ ffind ../relative/path/to/dir
-   $ ffind /absolute/path/to/dir
+
+```
+$ ffind dir
+$ ffind ../relative/path/to/dir
+$ ffind /absolute/path/to/dir
+```
 
 - List only hidden files, dirs, subdirs in current directory:
-   $ ffind -H
+
+```
+$ ffind -H
+```
 
 - List only hiddens in <dir>
-   $ ffind -H dir
-   $ ffind -H ../relative/path/to/dir
-   $ ffind -H /absolute/path/to/dir
+
+```
+$ ffind -H dir
+$ ffind -H ../relative/path/to/dir
+$ ffind -H /absolute/path/to/dir
+```
 
 - To remove all hidden files and dirs (!), please use the '-Hr' switch. Example:
-   $ ffind -Hr dir
+
+```
+$ ffind -Hr dir
+```
